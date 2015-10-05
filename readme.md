@@ -33,3 +33,7 @@ This is ok
 
 Any question, please feel free to let me know.
 
+# Release Package
+
+When the APP is ok to release, please publish to npm system.
+
