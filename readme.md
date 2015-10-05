@@ -6,7 +6,7 @@ This is the sample for pillakloud package development.
 download the source from github
 
 ```
-1. git clone git@github.com:PerryWu/pk-app-sample.git
+1. git clone https://github.com/PerryWu/pk-app-sample.git
 2. cd pk-app-sample
 3. npm install
 4. PORT=3000 node app.js
