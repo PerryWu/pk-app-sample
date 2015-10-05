@@ -1,8 +1,3 @@
-/*
- * Copyright (c) 2015 PillaKloud
- * All the rights are reserved by PillaKloud.
- */
-
 var express = require('express');
 var http = require('http');
 var path = require('path');
