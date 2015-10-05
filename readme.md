@@ -18,17 +18,16 @@ All http requests to your web server will be proxyed and translated.
 
 For example, if there are two APPs, app1 and app2, listened on port 3000 and 3001 respectively.
 
-```
-GET http://pk.local/app/app1/xxx 
-```
+
+`GET http://pk.local/app/app1/xxx`
+
 	will be handled by PET system and proxy to http://127.0.0.1:3000/xxx
 
-```
-GET http://pk.local/app/app2/xxx 
-```
+`GET http://pk.local/app/app2/xxx`
+
 	will be handled by PET system and proxy to http://127.0.0.1:3001/xxx
 
-So, please use related access in your html
+So, please do not use absolute path in your html when accessing system resources.
 
 For example, 
 This is not allowed:
