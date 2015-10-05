@@ -10,6 +10,7 @@ download the source from github
 2. cd pk-app-sample
 3. npm install
 4. PORT=3000 node app.js
+5. access the page on browser http://ip:3000/
 ```
 
 Note:
